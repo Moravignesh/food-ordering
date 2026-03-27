@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+*.db
+food_ordering.db
+
+# Environment files (IMPORTANT - never upload these)
+.env
+backend/.env
+frontend/.env
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
