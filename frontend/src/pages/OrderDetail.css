@@ -1,0 +1,12 @@
+.od-tracker{padding:24px;margin-bottom:16px}
+.tracker-steps{display:flex;align-items:flex-start;position:relative}
+.tracker-step{display:flex;flex-direction:column;align-items:center;flex:1;position:relative}
+.step-circle{width:44px;height:44px;border-radius:50%;border:2px solid var(--border);background:#fff;display:flex;align-items:center;justify-content:center;color:var(--mid);z-index:1;transition:all .3s}
+.step-circle.done{background:var(--success);border-color:var(--success);color:#fff}
+.step-circle.active{background:var(--brand);border-color:var(--brand);color:#fff;box-shadow:0 0 0 4px var(--brand-light)}
+.step-label{font-size:12px;font-weight:600;margin-top:8px;text-align:center;color:var(--mid)}
+.step-label.active{color:var(--brand)}
+.step-line{position:absolute;top:22px;left:calc(50% + 22px);right:calc(-50% + 22px);height:2px;background:var(--border);z-index:0}
+.step-line.done{background:var(--success)}
+.od-payment{padding:20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media(max-width:500px){.step-label{font-size:10px}.step-circle{width:36px;height:36px}}
