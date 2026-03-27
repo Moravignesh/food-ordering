@@ -1,17 +1,19 @@
-# 🍕 FoodRush — Online Food Ordering & Delivery System
+#  FoodRush — Online Food Ordering & Delivery System
 
 Full-stack food ordering application built with **FastAPI** (backend) + **React** (frontend).
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.10+
 - Node.js 18+
 
 ---
-
+##  Demo Video
+frontend video: https://drive.google.com/file/d/1IjS3r7h5KFvBncdfBPjKirEtmnuSh5pN/view?usp=sharing
+Backend video: https://drive.google.com/file/d/1kzQLxJ5BmlVmqeiZFhd6DsgXIFDBuC4f/view?usp=sharing
 ## Backend Setup
 
 ```bash
